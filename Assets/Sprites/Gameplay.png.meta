@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 1b0a1a912dafb264388ad80c025538cc
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1052360745694611525
+    second: brick1_sprite
+  - first:
+      213: 7595847631003330121
+    second: ball_sprite
+  - first:
+      213: 4721690602453705490
+    second: brick2_sprite
+  - first:
+      213: -3865349259382349860
+    second: brick2_broken_sprite
+  - first:
+      213: -417385854821731930
+    second: paddle_sprite
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +84,125 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: brick1_sprite
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 402
+        width: 333
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834b0055cd6ea4469154290d9a4141a
+      internalID: 1052360745694611525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_sprite
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 373
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1067f40a8c3f0d84f94b5faa1f953e1b
+      internalID: 7595847631003330121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick2_sprite
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 273
+        width: 333
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e21351b0d7144a4787d4aa047aa395c
+      internalID: 4721690602453705490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick2_broken_sprite
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 142
+        width: 333
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8484c3b38a3244383021bd939cd52c
+      internalID: -3865349259382349860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paddle_sprite
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 17
+        width: 496
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fa638c89dc96742bfb0273e1037d24
+      internalID: -417385854821731930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
