@@ -307,7 +307,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 9.4}
+  m_Size: {x: 1, y: 11.71}
   m_EdgeRadius: 0
 --- !u!1 &137834206
 GameObject:
@@ -428,9 +428,10 @@ GameObject:
   - component: {fileID: 194207422}
   - component: {fileID: 194207425}
   - component: {fileID: 194207424}
+  - component: {fileID: 194207426}
   m_Layer: 0
   m_Name: Paddle
-  m_TagString: Untagged
+  m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -545,6 +546,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.96, y: 0.8}
   m_EdgeRadius: 0
+--- !u!114 &194207426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194207421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604cc3b9dd768ba44ae7295e15d21fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &217200477
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,7 +828,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 9.4}
+  m_Size: {x: 1, y: 11.72}
   m_EdgeRadius: 0
 --- !u!1 &292569248
 GameObject:
@@ -1844,6 +1858,7 @@ GameObject:
   - component: {fileID: 829018996}
   - component: {fileID: 829018999}
   - component: {fileID: 829018998}
+  - component: {fileID: 829019000}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1908,7 +1923,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829018995}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: -2.11, z: 0}
+  m_LocalPosition: {x: 0.0004, y: -3.6511, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1944,13 +1959,26 @@ CircleCollider2D:
   m_GameObject: {fileID: 829018995}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 999d985ae1b1ba947bf095b87e26aefd, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!114 &829019000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829018995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399227e32fb8f45418c5968446d35fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &840603253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,7 +2057,7 @@ GameObject:
   - component: {fileID: 1121627027}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2058,7 +2086,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
