@@ -7,6 +7,10 @@ public class Paddle : MonoBehaviour
     public float speed = 10f;
 
     // Update is called once per frame
+    /** 
+        Gets horizontal input from the player. Moves the paddle gameobjects x
+        position left and right
+    */
     void FixedUpdate()
     {
         float h = Input.GetAxisRaw("Horizontal");   

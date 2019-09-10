@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameplayController : MonoBehaviour
 {
+    /** 
+        Loads the main menu scene
+    */
     public void QuitGame(){
         SceneManager.LoadScene("MainMenu");
     }
